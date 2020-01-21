@@ -21,7 +21,7 @@ module.exports = async (req, res) => {
     /**
      * How to send an email to this kartero2020:
      * -> 
-     *      curl -d '{"sender": "META Team", "subject":"Your new Automailer, Kartero.", "recipient_email":["kevin.mocorro@sunpowercorp.com", "Elmer.Malazarte@sunpowercorp.com"], "filename":"file.txt", "attachments":[{"filename":"file.txt", "path": "./static/file.txt"}, {"filename":"file2.txt", "path": "./static/file2.txt"}, {"filename":"file3.txt", "path":"./static/file3.txt"}] "message":"This is a sample message... \n please feel free to say hi"}' -H "Content-Type: application/json" -X POST http://10.3.10.209:3000/
+     *      curl -d '{"sender": "META Team", "subject":"Your new Automailer, Kartero.", "recipient_email":["kevin.mocorro@sunpowercorp.com", "Elmer.Malazarte@sunpowercorp.com"], "filename":"file.txt", "attachments":[{"filename":"file.txt", "path": "./static/file.txt"}, {"filename":"file2.txt", "path": "./static/file2.txt"}, {"filename":"file3.txt", "path":"./static/file3.txt"}], "message":"This is a sample message... \n please feel free to say hi"}' -H "Content-Type: application/json" -X POST http://10.3.10.209:3004/
      * 
      */
 
