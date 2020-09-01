@@ -26,7 +26,7 @@ module.exports = async (req, res) => {
      */
 
     const mailSetup = {
-        from:  js.sender + ' <f4automailer@sunpowercorp.com>',
+        from:  js.sender + ' <f4automailer@maxeon.com>',
         to: js.recipient_email,
         subject: js.subject,
         text: js.message,
